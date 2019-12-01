@@ -1,0 +1,12 @@
+C:\Users\EG\source\repos\[OLC1]Proyecto2_201701029\[OLC1]Proyecto2_201701029\bin\Debug\[OLC1]Proyecto2_201701029.exe.config
+C:\Users\EG\source\repos\[OLC1]Proyecto2_201701029\[OLC1]Proyecto2_201701029\bin\Debug\[OLC1]Proyecto2_201701029.exe
+C:\Users\EG\source\repos\[OLC1]Proyecto2_201701029\[OLC1]Proyecto2_201701029\bin\Debug\[OLC1]Proyecto2_201701029.pdb
+C:\Users\EG\source\repos\[OLC1]Proyecto2_201701029\[OLC1]Proyecto2_201701029\bin\Debug\Irony.dll
+C:\Users\EG\source\repos\[OLC1]Proyecto2_201701029\[OLC1]Proyecto2_201701029\obj\Debug\[OLC1]Proyecto2_201701029.csprojAssemblyReference.cache
+C:\Users\EG\source\repos\[OLC1]Proyecto2_201701029\[OLC1]Proyecto2_201701029\obj\Debug\_OLC1_Proyecto2_201701029.Form1.resources
+C:\Users\EG\source\repos\[OLC1]Proyecto2_201701029\[OLC1]Proyecto2_201701029\obj\Debug\_OLC1_Proyecto2_201701029.Properties.Resources.resources
+C:\Users\EG\source\repos\[OLC1]Proyecto2_201701029\[OLC1]Proyecto2_201701029\obj\Debug\[OLC1]Proyecto2_201701029.csproj.GenerateResource.cache
+C:\Users\EG\source\repos\[OLC1]Proyecto2_201701029\[OLC1]Proyecto2_201701029\obj\Debug\[OLC1]Proyecto2_201701029.csproj.CoreCompileInputs.cache
+C:\Users\EG\source\repos\[OLC1]Proyecto2_201701029\[OLC1]Proyecto2_201701029\obj\Debug\[OLC1]Proyecto2_201701029.csproj.CopyComplete
+C:\Users\EG\source\repos\[OLC1]Proyecto2_201701029\[OLC1]Proyecto2_201701029\obj\Debug\[OLC1]Proyecto2_201701029.exe
+C:\Users\EG\source\repos\[OLC1]Proyecto2_201701029\[OLC1]Proyecto2_201701029\obj\Debug\[OLC1]Proyecto2_201701029.pdb

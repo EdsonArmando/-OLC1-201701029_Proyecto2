@@ -1,0 +1,99 @@
+/**
+*   Aquí voy a poner todas las funciones con las que se va a probar la recursividad
+*/
+class Funciones {
+/**
+* RECURSION SIMPLE.
+*/
+function factorial(var num){
+if(num == 0){
+return 1;
+}else{
+return num * factorial(num-1);
+}
+}
+
+function potencia(var base, var exponente){
+if(exponente==0){
+return 1;
+}else{
+if(exponente<0){
+var suma = potencia(base, exponente+1) / base;
+return suma;
+}else{
+var prueba = base * potencia(base, exponente-1);
+return prueba;
+}
+}
+}
+
+/**
+* RECURSION MULTIPLE.
+*/
+function fibonnacci(var num1){
+if(num1==0){
+return 0;
+}
+if(num1==1){
+return 1;
+}else{
+var uno = fibonnacci(num1-1);
+var dos = fibonnacci(num1-2);
+return uno + dos;
+}
+}
+/**
+* RECURSION CRUZADA.
+*/
+
+function hofstaderFemale(var n) 
+{ 
+if (n < 0) {
+return 0;
+}             
+else{
+if(n==0){
+return 1;
+}else{
+return n - hofstaderFemale(n - 1); 
+}
+}
+}
+
+function Impar(var num){
+if(num==0){
+return 0;
+}else{
+var dos = Par(num-1);
+return dos;
+}
+}
+function Par(var num){
+if(num==0){
+return 1;
+}else{
+var dos = Impar(num-1);
+return dos;
+}
+}
+
+
+/**
+* RECURSION ANIDADA.
+*/
+function ackermann(var m, var n){
+if(m==0){
+var act=(n+1);
+return act;
+}else{
+if((m>0) && (n==0)){
+var los= ackermann(m-1,1);
+return los;
+}else{
+var in = ackermann(m,n-1);
+var nueva = ackermann(m-1,in);
+return nueva;
+}
+}
+}
+}

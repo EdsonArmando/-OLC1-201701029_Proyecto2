@@ -1,0 +1,40 @@
+class Recursividad{
+    var r = new Funciones();
+	function void ejecutar(){
+
+        log("----- Seccion de Recursividad -----");
+
+        log("Analizando factorial de un numero");
+		log("-------------FACTORIAL DE -------------");
+		var fac = r.factorial(5);
+		log(fac);
+			   
+	   
+        log("Analizando potencia");
+        var potencia = r.potencia(2,5);
+		log(potencia);
+			
+
+
+        log("Analizando Fibonacci");
+			var Fibo = fibonnacci(0);
+			for(var i = 0;i<8;i++){
+			Fibo = r.fibonnacci(i);
+			log(Fibo);
+}
+ // HANOI
+		r.Hanoi(3,1,2,3);
+        log("Analizando Hofstadter");
+		var nueva = r.hofstaderFemale(0);
+		for(var i = 0;i<10;i++){
+		nueva = r.hofstaderFemale(i);
+		log(nueva);
+		}
+
+        log("Analizando Par");
+        var para = r.Par(3);
+		log(para);
+
+        log("Analizando Ackerman");
+	}
+}

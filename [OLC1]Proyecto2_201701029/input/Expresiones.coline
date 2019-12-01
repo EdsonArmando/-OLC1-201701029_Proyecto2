@@ -1,0 +1,230 @@
+class Expresiones {
+    var tamanoNotas = 7;
+    var tamanoDescripciones = tamanoNotas;
+    var valorSeccion = 10.0  ; //Puntos que vale esta sección
+    var notas = 0;
+    var notas1 = 0;
+    var notas2 = 0;
+    var notas3 = 0;
+    var notas4 = 0;
+    var notas5 = 0;
+    var notas6 = 0;
+
+    function void aritmeticas_basicas() {
+        log("1) Operaciones Aritméticas Basicas");
+        
+        //1765
+        var temp1 = 10 + 45 * 78 / 2;
+        log(temp1);
+        
+        //80
+        var temp2 = 0 + ((10 * (((8)))));
+        log(temp2);
+
+        //9
+        var temp3 =  (8 - 7 +   (2 pow 3) );
+        log(temp3);
+        
+        //Verifico los resultados
+        if(temp1 == 1765){
+            notas = notas + 5;
+        }
+
+        if(temp2 == 80){
+            notas = notas + 5;
+        }
+
+        if(temp3 == 9.0){
+            notas = notas + 5;
+        }
+    }
+
+    function void aritmeticas_avanzadas() {
+
+        log("2) Operaciones Aritméticas Avanzadas");
+        
+        //112
+        var temp1 = 15 * 7 - 2 / 2 - 8 * (5 - 6);
+        log(temp1);
+
+        //143
+        var temp2 =  (0 + (10 * 8) - 18 + (3 pow 4) );
+        log(temp2);
+
+        //14
+        var temp3 =  ((8 - 7 + (2 pow 3) / 3) * 4);
+        log(temp3);
+
+
+        //Verifico los resultados
+        if(temp1 == 112){
+            notas1 = notas1 + 5;
+        }
+
+        if(temp2 == 143.000){
+            notas1 = notas1 + 5;
+        }
+
+        //log("Avanzada -> temp3 = " + temp3);
+        if(temp3 == 14.666666666666666){
+            notas1 = notas1 + 5;
+        }  
+    }
+
+    function void operaciones_relacionales_basicas() {
+
+        log("3) Operaciones Relacionales Basicas");
+        var salida = 0;
+        var cuato = 10;
+        if(salida < cuatro)
+        {
+            salida = 5 * 9;
+            if(salida > 44)
+            {
+                salida++;
+            }
+        }else
+        {
+            salida = 1;
+        }
+        
+        if(salida != notas)
+        {
+
+            if(salida == 46)
+            {
+
+                log("Salida CORRECTA!!");
+                notas2 = notas2 + 15;
+            }else
+            {
+                log("Salida incorrecta!!");
+
+            }
+        }else
+        {
+            log("Salida incorrecta!!");
+        }
+    }
+
+    function void operaciones_relacionales_avanzadas() {
+        log("4)Operaciones Relacionales Avanzadas");
+        var one = 10-15;
+        var towo = 0;
+        if( one > two)
+        {
+            log("Salida incorrecta!!");
+        }else
+        {
+             var uno = 15 + 8 ;
+             var dos = 22 - 10 + 5 * 3 - 4;
+            if(uno == dos)
+            {
+                var pru = 11-2;
+                if(10 != pru)
+                {
+                    log("Salida CORRECTA!!");
+                    notas3 = notas3 + 15;
+                }else
+                {
+                    log("Salida incorrecta!!");
+                }
+            }else
+            {
+                var pru = 1;
+                var p = 1;
+                if(prue == p)
+                {
+                    log("Salida incorrecta!!");
+                }else
+                {
+                    log("Salida incorrecta!!");
+                }
+            }
+        }
+    }
+
+
+    function void operaciones_logicas_basicas() {
+
+        log("5) Operaciones Logicas Basicas");
+
+        if(((true == true) && (true != false)) || (1 > 10) && (false== true))
+        {
+            log("Salida CORRECTA!!");
+            notas4 = notas4 + 15;
+        }else
+        {
+            log("Salida incorrecta!!");
+        }
+    }
+
+
+    function void operaciones_logicas_avanzadas() {
+        log("6) Operaciones Logicas Avanzadas");
+        var uno = (15==14);
+        var dos = ((30 > 15) && (12 < 24)) ;
+        var tres = (49== 15); 
+        if(uno || dos || tres)
+        {
+            log("Salida CORRECTA!!");
+            notas5 = notas5 + 15;
+        }else
+        {
+            log("Salida incorrecta!!");
+        }
+    }
+
+    function void operaciones_conjuntas() {
+        log("7) Operaciones Conjuntas");
+        if(!=(5 * 3 - 1 == 14) && !=(!=(15 == 6 - 1)))
+        {
+            log("Salida incorrecta!!");
+        }else
+        {
+            var variable = -1 * (54 / 6 + 9 + 9 - 1 * 8 / 2 * 17);
+            var var2 = 48 / 4 * 79 - 2 + 8;
+            var salida = variable + "" + var2;
+            if(salida == "41954" || salida == "41.0954")
+            {
+                log("Resultado: 41954");
+                notas6 = notas6 + 10;
+            }else
+            {
+
+                log("Salida incorrecta!!");
+            }
+        }
+    }
+    function void ImprimirNotas(){
+
+        log("*********** NOTAS SECCIÓN RECURSIVIDAD ***********");
+        log(notas);
+        log(notas1);
+        log(notas2);
+        log(notas3);
+        log(notas4);
+        log(notas5);
+        log(notas6);
+
+    }
+
+    function void ImprimirTotal(){
+        log("**************** NOTA SOBRE 100 = " + notas+notas1+notas2+notas3+notas4+notas5+notas6 + " ****************");
+        log("**************** PUNTEO NETO = " + total * (valorSeccion / 100) + " de " + valorSeccion +" ****************");
+
+        log("");
+        log("");
+        log("");
+    }
+    function ejecutar(){
+        log("----- Seccion de Expresiones -----");
+        aritmeticas_basicas();
+        aritmeticas_avanzadas();
+        operaciones_relacionales_basicas();
+        operaciones_relacionales_avanzadas();
+        operaciones_logicas_basicas();
+        operaciones_logicas_avanzadas();
+        operaciones_conjuntas();
+    }
+}

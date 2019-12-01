@@ -1,0 +1,22 @@
+function factorial(var num){
+if(num == 0){
+return 1;
+}else{
+return num * factorial(num-1);
+}
+}
+
+function fibonnacci(var num1){
+if(num1==0){
+return 0;
+}
+if(num1==1){
+return 1;
+}else{
+var uno = fibonnacci(num1-1);
+var dos = fibonnacci(num1-2);
+return uno + dos;
+}
+}
+
+
