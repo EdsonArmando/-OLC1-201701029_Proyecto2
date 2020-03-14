@@ -1,9 +1,11 @@
-# -OLC1-201701029_Proyecto2
+ OLC1-201701029_Proyecto2
+ Organizacion de lenguajes y comliladores 1.
  Developer: Edson Armamdo Guix
  Universidad de San Carlos de Guatemala
  correo: edsonguix@gmail.com
+ carne: 201701029
 
-Este proyecto realiza diversas funciones como por ejempl:
+Este proyecto realiza diversas funciones como por ejemplo:
 
 -Metodos y Funciones: en algunos es posible retornar un valor en espwcifico.
 -Declaracion de variables: Crea una variable ya sea en un entorno local o global.
